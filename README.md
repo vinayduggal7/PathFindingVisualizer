@@ -37,7 +37,8 @@ Reset button will set nodes to their initial  state and clear the grid completel
 So this is the basic illustration of my project.
 
 ## How to run it on your PC.
-Make sure you are running atleast python 3.7.0
+Make sure you are running atleast python 3.7.0.
+
 Install using pip:
 ```
 pip install pygame
@@ -51,6 +52,6 @@ git clone https://github.com/sahil1699/PathFindingVisualizer.git
 In your terminal move to the directory where you have cloned this project.
 And then type :
 ```
-python SortingVisulizer.py
+python ThePathFindingVisulizer.py
 ```
 
