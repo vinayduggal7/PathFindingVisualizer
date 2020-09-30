@@ -4,7 +4,7 @@ import pygame
 from creatingabotton import button
 import random
 
-WIDTH = 1000
+WIDTH = 1024
 HIGHT = 400
 ROWS = 20
 COLS = 50
@@ -29,17 +29,17 @@ def drawgrid(surface):
 
     for _ in range(ROWS):
         y += sizeBr
-        pygame.draw.line(surface,(138,54,15), (0,y),(WIDTH,y))
+        pygame.draw.line(surface,(138,56,15), (0,y),(WIDTH,y))
 
     for _ in range(COLS):
         x += sizeBc
-        pygame.draw.line(surface,(138,54,15), (x,0),(x,HIGHT))
+        pygame.draw.line(surface,(138,56,15), (x,0),(x,HIGHT))
 
 class treenode(object):
     childs = []
-    def __init__(self,data,prnt):
+    def __init__(self,data,pnt):
         self.data = data
-        self.prnt = prnt
+        self.prnt = pnt
 
 
 
